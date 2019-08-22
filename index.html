@@ -23,6 +23,7 @@
     
     <!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
 
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/48d7b93209.js"></script>
@@ -183,7 +184,34 @@
 		    </div> -->
 	    </div><!--//container-->
 	    
-    </section><!--//features-section-->
+	</section><!--//features-section-->
+	
+	<section class="contact-form-section pb-5" id="contact">
+	    <div class="container pb-5">
+		       <div class="form-wrapper shadow-lg single-col-max-width mx-auto p-5">
+			        <form id="contact-form" class="contact-form" method="POST" action="https://formspree.io/jason@hedmans.org">
+				        <h3 class="text-center mb-4">Contact Form</h3>
+				        <div class="form-row">                                                           
+			                <div class="form-group col-md-6">
+			                    <label class="sr-only" for="cname">Name</label>
+			                    <input type="text" class="form-control" id="cname" name="name" placeholder="Name" minlength="2" required="" aria-required="true">
+			                </div>                    
+			                <div class="form-group col-md-6">
+			                    <label class="sr-only" for="cemail">Email</label>
+			                    <input type="email" class="form-control" id="cemail" name="email" placeholder="Email" required="" aria-required="true">
+			                </div>
+			                <div class="form-group col-12">
+			                    <label class="sr-only" for="cmessage">Your message</label>
+			                    <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="10" required="" aria-required="true"></textarea>
+			                </div>
+			                 <div class="form-group col-12">
+			                    <button type="submit" class="btn btn-block btn-primary py-2">Send It</button>
+			                </div>                           
+			            </div><!--//form-row-->
+			        </form>
+		       </div>
+	    </div><!--//container-->
+    </section><!--//contact-form-section-->
     
     <section class="cta-section py-5 theme-bg-secondary text-center">
 	    <div class="container">
@@ -191,10 +219,8 @@
 		    <div class="text-white mx-auto single-col-max-width section-intro">Try the beta version of PikApp available through Apple's TestFlight beta service.</div>
 		    <a class="btn theme-btn theme-btn-ghost theme-btn-on-bg mt-4" href="https://testflight.apple.com/join/Hoxd6qOJ">Download  Now</a>
 	    </div>
-    </section><!--//cta-section-->
-    
-           
-    
+	</section><!--//cta-section-->
+        
     <footer class="footer theme-bg-primary">
 	    <div class="container py-5 mb-3">
 		    <div class="row">

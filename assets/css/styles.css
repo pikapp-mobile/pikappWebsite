@@ -1,0 +1,11 @@
+.form-control::placeholder{
+    color: #121B28 !important;
+}
+
+.form-control{
+    color:#121b28
+}
+
+.form-control:focus{
+    color:#121b28
+}

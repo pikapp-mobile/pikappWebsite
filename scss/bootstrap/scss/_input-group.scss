@@ -29,6 +29,10 @@
     }
   }
 
+  ::placeholder{
+    color:"#121b28";
+  }
+
   // Bring the "active" form control to the top of surrounding elements
   > .form-control:focus,
   > .custom-select:focus,
